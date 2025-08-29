@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Page</title>
+  <style>
+    .navbar { background: lightgray; padding: 10px; }
+    .navbar a { margin: 0 10px; text-decoration: none; color: black; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .grid div { border: 1px solid black; padding: 20px; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="form.html">Form</a>
+    <a href="table.html">Table</a>
+    <a href="grid.html">Grid UI</a>
+    <a href="flex.html">Flex UI</a>
+  </div>
+
+  <h2>Grid UI</h2>
+  <div class="grid">
+    <div>Harihar - hari@example.com</div>
+    <div>Viky - viky@example.com</div>
+    <div>Aman - aman@example.com</div>
+  </div>
+</body>
+</html>
